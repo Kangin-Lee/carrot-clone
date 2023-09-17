@@ -1,0 +1,139 @@
+li{
+  list-style: none;
+}
+
+
+/* 헤더부분------------------------------------ */
+.header-area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+.menu{
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu a{
+  color: #4d5159;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-right: 30px;
+}
+
+input{
+  width: 288px;
+  padding: 9px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f3f6;
+}
+.search-area button{
+  padding: 8px 16px;
+  margin-left: 10px;
+  background-color: white;
+  font-weight: bold;
+  border: 1px solid #d1d3d8;
+  border-radius: 5px;
+}
+
+/* 첫번째 화면------------------------------------------ */
+.firstView-area{
+  background-color: #FFFAE0;
+  height: 790px;
+}
+
+.firstView{
+  display: flex;
+  justify-content: center;
+}
+.firstView-text{
+  width: 1024px;
+  
+}
+
+.firstView-img{
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.firstView-text h1{
+  font-weight: bold;
+  font-size: 3.5em;
+  padding-top: 200px;
+}
+
+.firstView-text p{
+  font-size: 20px;
+  color: gray;
+  margin: 30px 0;
+}
+
+.firstView-btns {
+  display: flex;
+}
+
+.firstView-btns div{
+  width: 180px;
+  padding: 14px 20px;
+  margin-right: 10px;
+  text-align: center;
+  background-color: #FF6F0F;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands{
+  font-size: 18px;
+  margin-right: 10px;
+}
+.app-store{
+  font-size: 24px;
+}
+
+/* 두번째 화면--------------------------------------------- */
+.secondView-area{
+  background-color: #f9f9f9;
+}
+.secondView{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondView-text1{
+  font-weight: bold;
+  color: #FF6F0F;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.secondView-text2{
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.secondView-text3{
+  font-size: 20px;
+  color: gray;
+}
+.secondView-btns{
+  margin-top: 1.8em;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondView-btns div{
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  background-color: #E9ECEF;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+}
