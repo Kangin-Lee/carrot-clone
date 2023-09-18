@@ -137,3 +137,77 @@ input{
   font-weight: bold;
   border-radius: 8px;
 }
+
+/* 푸터부분---------------------------------------------------------- */
+.footer-area{
+  width: 768px;
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0;
+  border-bottom: 1px solid #dbdcdd;
+}
+
+.footer-top a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer-top li{
+  margin: 10px 25px 27px 25px;
+  font-size: 0.9em;
+}
+
+.footer-menus{
+  display: flex;
+}
+
+.carrot-downloads {
+  font-weight: bold;
+}
+
+.download-btns{
+  display: flex;
+  align-items: center;
+}
+
+.download-btns span{
+  width: 147px;
+  height: 44px;
+  background-color: #f2f3f6;
+  border-radius: 10px;
+}
+
+.goTo-download{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 0.95em;
+}
+.footer-bottom{
+  padding: 24px 0 100px 0;
+}
+
+.footer-bottom-top{
+  display: flex;
+  justify-content: space-between;
+  color: #868b94;
+  font-size: 0.82em;
+}
+
+.footer-bottom-brands{
+  font-size: 1.7em;
+}
+
+.footer-bottom-brands a{
+  margin-right: 20px;
+} 
+
+.footer-bottom-brands span{
+  width: 92px;
+  height: 33px;
+  font-size: 0.65em;
+  
+}
