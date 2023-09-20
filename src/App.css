@@ -4,11 +4,17 @@ li{
 
 
 /* 헤더부분------------------------------------ */
+.nav-area{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
 .header-area{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
+
 }
 .menu{
   padding: 0;
@@ -138,9 +144,53 @@ input{
   border-radius: 8px;
 }
 
+/* 세번쨰 뷰-0-0------------------------------------------------------ */
+.third-area{
+  background-color: #fff8f1;
+}
+
+.home-story-list{
+  display: flex;
+  margin-top: 40px;
+}
+.home-story-div{
+  margin: 16px 16px 16px 0;
+}
+
+.home-story-list-logo{
+  width: 56px;
+  height: 56px;
+  background-color: #ffe5d1;
+  color: #ff6f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8em;
+  border-radius: 15px;
+}
+
+.home-story-list-title{
+  color: #ff6f0f;
+  margin: 16px 0 8px 0;
+  font-size: 0.9em;
+}
+.home-story-list-description{
+  width: 124px;
+  font-size: 13px;
+  color: #7c7c7c;
+}
+
+/* 네번쨰 페이지 ----------------------------------------------------- */
+.fourthView-area{
+  background-color: #f9f9f9;
+}
+.fourthView{
+  display: flex;
+}
 /* 푸터부분---------------------------------------------------------- */
 .footer-area{
   width: 768px;
+  margin: 0 auto;
 }
 .footer-top{
   display: flex;
@@ -152,6 +202,10 @@ input{
 .footer-top a{
   text-decoration: none;
   color: black;
+}
+
+.footer-top a:hover{
+  text-decoration: underline;
 }
 
 .footer-top li{
@@ -185,7 +239,13 @@ input{
   align-items: center;
   margin-right: 10px;
   font-size: 0.95em;
+  cursor: pointer;
 }
+
+.goTo-download:hover{
+  color: rgba(0, 0, 0, 0.61);
+}
+
 .footer-bottom{
   padding: 24px 0 100px 0;
 }
@@ -197,17 +257,39 @@ input{
   font-size: 0.82em;
 }
 
+
 .footer-bottom-brands{
   font-size: 1.7em;
 }
 
 .footer-bottom-brands a{
   margin-right: 20px;
+  color: #868b94;
 } 
+
+.footer-bottom-brands a:hover, .footer-bottom-brands span:hover{
+  color:#868b94b0;
+  
+}
 
 .footer-bottom-brands span{
   width: 92px;
   height: 33px;
   font-size: 0.65em;
-  
+  cursor: pointer;
+}
+
+.footer-question a, .footer-lastMenu a{
+  text-decoration: none;
+  color: #868b94;
+  font-size: 0.82em;
+  margin-right: 16px;
+}
+
+.footer-question a:hover, .footer-lastMenu a:hover{
+  text-decoration: underline;
+}
+
+.footer-question{
+  margin: 16px 0;
 }

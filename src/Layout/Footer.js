@@ -20,6 +20,14 @@ const Footer = () => {
   ];
   const footerMenu2 = ["당근비즈니스", "채팅하기"];
   const footerMenu3 = ["자주 묻는 질문", "회사 소개", "인재 채용"];
+  const question = ["제휴 문의", "광고 문의", "PR 문의", "IR 문의"];
+  const lastMenu = [
+    "이용약관",
+    "개인정보처리방침",
+    "위치기반서비스 이용약관",
+    "이용자보호 비전과 계획",
+    "청소년보호정책",
+  ];
   return (
     <Container>
       <div className="footer-area">
@@ -80,16 +88,16 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-bottom-brands">
-              <a>
+              <a href="https://www.facebook.com/daangn">
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
-              <a>
+              <a href="https://www.instagram.com/daangnmarket/">
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
-              <a>
+              <a href="https://www.youtube.com/channel/UC8tsBsQBuF7QybxgLmStihA">
                 <FontAwesomeIcon icon={faYoutube} />
               </a>
-              <a>
+              <a href="#">
                 <FontAwesomeIcon icon={faTiktok} />
               </a>
               <span>
@@ -98,8 +106,20 @@ const Footer = () => {
               </span>
             </div>
           </div>
-          <div></div>
-          <div></div>
+          <div className="footer-question">
+            {question.map((menu) => (
+              <a href="#">
+                <b>{menu}</b>
+              </a>
+            ))}
+          </div>
+          <div className="footer-lastMenu">
+            {lastMenu.map((menu) => (
+              <a href="#">
+                <b>{menu}</b>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </Container>

@@ -4,6 +4,8 @@ import Header from "./Layout/Header";
 import FirstView from "./Layout/FirstView";
 import SecondView from "./Layout/SecondView";
 import Footer from "./Layout/Footer";
+import ThirdView from "./Layout/ThirdView";
+import FourthView from "./Layout/FourthView";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <FirstView />
       <SecondView />
+      <ThirdView />
+      <FourthView />
       <Footer />
     </>
   );
