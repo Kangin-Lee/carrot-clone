@@ -6,6 +6,7 @@ import SecondView from "./Layout/SecondView";
 import Footer from "./Layout/Footer";
 import ThirdView from "./Layout/ThirdView";
 import FourthView from "./Layout/FourthView";
+import FifthView from "./Layout/FifthView";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SecondView />
       <ThirdView />
       <FourthView />
+      <FifthView />
       <Footer />
     </>
   );

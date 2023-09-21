@@ -8,6 +8,7 @@ li{
   background-color: white;
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 .header-area{
   display: flex;
@@ -49,28 +50,31 @@ input{
 /* 첫번째 화면------------------------------------------ */
 .firstView-area{
   background-color: #FFFAE0;
-  height: 790px;
+  height: 850px;
 }
 
 .firstView{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .firstView-text{
   width: 1024px;
-  
+  padding: 100px 0 0 120px;
 }
 
 .firstView-img{
-  position: absolute;
-  top: 0;
-  right: 30px;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  width: 655px;
+  height: 800px;
 }
+
 
 .firstView-text h1{
   font-weight: bold;
-  font-size: 3.5em;
-  padding-top: 200px;
+  font-size: 3.4em;
 }
 
 .firstView-text p{
@@ -186,6 +190,16 @@ input{
 }
 .fourthView{
   display: flex;
+}
+
+/* 다섯번쨰 페이지------------------------------------------------ */
+.fifthView-area{
+  background-color: #f6fdec;
+}
+.fifthView{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 /* 푸터부분---------------------------------------------------------- */
 .footer-area{
